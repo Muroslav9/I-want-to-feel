@@ -1,0 +1,83 @@
+@media only screen and (max-width: 500px) {
+	.header-title{
+		text-align: center;
+	}
+	header{
+		min-height: 700px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.main-menuul{
+		display: none;
+		position: absolute;
+		width: 100%;
+		background-color: #345464;
+		margin-top:90px;
+		z-index:10;
+	}
+	.main-menu ul li{
+		display: block;
+		text-align: center;
+	}
+	.main-menu a{
+		margin: 0;
+		padding: 5px;
+	}
+	.main-menu a:hover{
+		background-color:#4f4f4f;
+		text-decoration: none;
+	}
+	.logo img{
+		width: 50px;
+	}
+	.header-title{
+		font: 300 32px / 1 Lato;
+	}
+	footer{
+		text-align: center;
+	}
+	.title{
+		text-align: center;
+	}
+	.sub-title{
+		text-align: justify
+	}
+}
+
+@media only screen and (max-width: 959px) {
+	.main-menu ul{
+		display: none;
+		position: absolute;
+		width: 100%;
+		background-color: #345464;
+		margin-top:90px;
+		z-index:10;
+	}
+	.main-menu ul li{
+		display: block;
+		text-align: center;
+	}
+	.main-menu a{
+		margin: 0;
+		padding: 5px;
+	}
+	.main-menu a:hover{
+		background-color:#4f4f4f;
+		text-decoration: none;
+	}
+	.logo img{
+		width: 50px;
+	}
+}
+
+@media only screen and (min-width: 960px){
+	.main-menu >ul{
+		display: block !important;
+	}
+}
+
+@media (min-width: 960px) and (max-width: 1200px) {
+	.main-menu{
+		margin-left: 100px;
+	}
+}
